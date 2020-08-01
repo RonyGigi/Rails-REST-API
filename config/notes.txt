@@ -1,0 +1,15 @@
+Install mysql2 gem
+
+Add it in Gemfile
+
+Change db config in database.yml
+https://www.digitalocean.com/community/tutorials/how-to-create-a-new-user-and-grant-permissions-in-mysql
+
+
+rails g model Article title:string body:text
+
+rails db:migrate
+
+run faker
+
+rails db:seed
